@@ -9,14 +9,14 @@ pragma solidity ^0.6.9;
  * Inheritance - When we extend a contract, the variables in the child can be packed with the variables in the parent.
  */
 contract C {
-    // execution cost 74406 gas
+    // execution cost 121964 gas
     uint128 test1 = 1;
     uint256 test2 = 1;
     uint128 test3 = 1;
 }
 
 contract D {
-    // execution cost 121964 gas
+    // execution cost 74406 gas
     uint128 test1 = 1;
     uint128 test3 = 1;
     uint256 test2 = 1;
